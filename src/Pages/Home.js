@@ -1,0 +1,15 @@
+import React from 'react'
+import Navbar from '../features/Navbar/Navbar'
+import EventList from '../features/Event/components/EventList';
+
+const Home = () => {
+  return (
+    <div>
+        <Navbar>
+            <EventList></EventList>
+        </Navbar>
+    </div>
+  )
+}
+
+export default Home

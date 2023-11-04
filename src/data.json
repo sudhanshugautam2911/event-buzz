@@ -1,0 +1,63 @@
+{
+    "events": [
+      {
+        "id": "1",
+        "title": "Amazon",
+        "img": "https://images.cnbctv18.com/wp-content/uploads/2022/10/3-15-1019x573.jpg?im=FitAndFill,width=1200,height=900",
+        "description": "Amazon Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque."
+      },
+      {
+        "id": "2",
+        "title": "Flipkart",
+        "img": "https://www.berojgarshala.com/wp-content/uploads/2023/08/Flipkart-Recruitment-2023-Operation-Job-Job-For-Freshers-berojgarshala-mausam-nagpal-min.jpg",
+        "description": "Flipkart hiring Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque."
+      },
+      {
+        "id": "3",
+        "title": "Paytm",
+        "img": "https://offercdn.paytm.com/blog/2021/07/fse-bnr-mob-9july21.png",
+        "description": "Paytm is hiring Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque."
+      }
+    ],
+    "competitions": [
+      {
+        "id": 1,
+        "title": "Competition 1",
+        "img": "competition1.jpg",
+        "description": "Description for Competition 1"
+      },
+      {
+        "id": 2,
+        "title": "Competition 2",
+        "img": "competition2.jpg",
+        "description": "Description for Competition 2"
+      },
+      {
+        "id": 3,
+        "title": "Competition 3",
+        "img": "competition3.jpg",
+        "description": "Description for Competition 3"
+      }
+    ],
+    "other": [
+      {
+        "id": 1,
+        "title": "Other 1",
+        "img": "other1.jpg",
+        "description": "Description for Other 1"
+      },
+      {
+        "id": 2,
+        "title": "Other 2",
+        "img": "other2.jpg",
+        "description": "Description for Other 2"
+      },
+      {
+        "id": 3,
+        "title": "Other 3",
+        "img": "other3.jpg",
+        "description": "Description for Other 3"
+      }
+    ]
+  }
+  
