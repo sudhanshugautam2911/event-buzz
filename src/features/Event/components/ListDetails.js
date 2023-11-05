@@ -5,8 +5,7 @@ import { useParams } from "react-router-dom";
 export default function ListDetails() {
   const params = useParams();
 
-  const event = data.events.find((event) => event.id === params.eventId);
-  console.log("event  is ", event);
+  const event = data.events.find((event) => event.id === params.id);
 
   if (!event) {
     return <div>Event not found.</div>;
@@ -19,7 +18,7 @@ export default function ListDetails() {
         alt="thumbnail"
         className="w-full h-[50vh] object-contain rounded-sm ring-1 ring-slate-100 shadow-sm"
       />
-      <div className="my-4">
+      <div className="my-4 mx-4">
         <h2 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-slate-800">
           {event.title}
         </h2>

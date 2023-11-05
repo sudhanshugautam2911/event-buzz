@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../features/Navbar/Navbar'
-import HomePage from './HomePage'
+import EventList from '../features/Event/components/EventList';
 
 const EventListPage = () => {
   return (
     <div>
         <Navbar>
-            <HomePage></HomePage>
+            <EventList></EventList>
         </Navbar>
     </div>
   )

@@ -1,62 +1,159 @@
 {
-    "events": [
+    "competitions": [
       {
         "id": "1",
         "title": "Amazon",
         "img": "https://images.cnbctv18.com/wp-content/uploads/2022/10/3-15-1019x573.jpg?im=FitAndFill,width=1200,height=900",
-        "description": "Amazon Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat, velit ut commodo fermentum, sapien nisl consequat turpis, nec suscipit quam arcu in quam. Maecenas facilisis commodo nisi, vel bibendum libero congue in. Proin facilisis tincidunt justo, a vestibulum turpis. Sed in massa a risus ullamcorper egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vulputate euismod lacus, non tincidunt tortor eleifend vitae. Curabitur.  nec suscipit quam arcu in quam. Maecenas facilisis commodo nisi, vel bibendum libero congue in. Proin facilisis tincidunt justo, a vestibulum turpis. Sed in massa a risus ullamcorper egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vulputate euismod lacus, non tincidunt tortor eleifend vitae. Curabitur.",        
+        "jobPosted": "1-nov-2023"
       },
       {
         "id": "2",
         "title": "Flipkart",
         "img": "https://www.berojgarshala.com/wp-content/uploads/2023/08/Flipkart-Recruitment-2023-Operation-Job-Job-For-Freshers-berojgarshala-mausam-nagpal-min.jpg",
-        "description": "Flipkart hiring Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque."
+        "description": "Flipkart hiring Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque.",
+        "jobPosted": "25-oct-2023"
       },
       {
         "id": "3",
         "title": "Paytm",
         "img": "https://offercdn.paytm.com/blog/2021/07/fse-bnr-mob-9july21.png",
-        "description": "Paytm is hiring Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque."
+        "description": "Paytm is hiring Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, itaque.",
+        "jobPosted": "22-oct-2023"
+      },
+      {
+        "id": "4",
+        "title": "TCS",
+        "img": "https://media.geeksforgeeks.org/wp-content/uploads/20200527173534/1406-4.png",
+        "description": "Registration is live M1 Mockvita 1 is over, Today M2 Mockvita 2 will be live for registered students ( around 3pm )( MockVitas are just like actual rounds to give you a demo of the actual contest )",
+        "eligibility": "With years of completion 2024, 2025, 2026, and 2027 From institutes across the globe Pursuing undergraduate/diploma/postgraduate disciplines from engineering/science background with any specialization",
+        "regLink": "https://codevita.tcsapps.com/",
+        "jobPosted": "15-oct-2023"
+
+      },
+      {
+        "id": "5",
+        "title": "KPIT Sparkle",
+        "img": "https://sparkle.kpit.com/images/banner.jpg",
+        "description": "Registration and idea submission is live; end soon",
+        "eligibility": "Undergraduate students from Science and Engineering across the globe , All branches",
+        "regLink": "https://sparkle.kpit.com/",
+        "jobPosted": "9-oct-2023"
+      },
+      {
+        "id": "6",
+        "title": "TECHgium",
+        "img": "https://scontent.fdel1-7.fna.fbcdn.net/v/t39.30808-6/378027110_625200023131627_5250527574346502398_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UIjI95RQTwsAX9wGlHA&_nc_ht=scontent.fdel1-7.fna&oh=00_AfBEBTP2ztZhC-kP1A5PKMo82QzpkL-wsKSbR7SOlPe_3w&oe=654D4C0B",
+        "description": "After registration students can submit their Concepts Today is the  Last day for the Concept submission Stage 1 ; 3rd November",
+        "eligibility": "For All Engineering Departments ( 2024 & 2025 )",
+        "regLink": "https://ltts.techgium.com",
+        "jobPosted": "1-oct-2023"
       }
     ],
-    "competitions": [
+    "events": [
       {
         "id": 1,
-        "title": "Competition 1",
-        "img": "competition1.jpg",
-        "description": "Description for Competition 1"
+        "title": "Code Sprint 2.0- Coding Competition",
+        "img": "https://i.ibb.co/YdPYTpx/Whats-App-Image-2023-11-05-at-18-49-00-583bcaca.jpg",
+        "eventDescription": [
+          "🎯 Objective: Code Sprint 2.0 will test your competitive coding skills. You'll tackle programming challenges, algorithm puzzles, and real-world problems within a set time frame.",
+          "📋 Competition Details: (Online)",
+          "🗓 Date: 8th November 2023",
+          "⏰Duration: 2 hours",
+          "🔓 Portal Time: 7:00 PM - 11:00 PM",
+          "📝 Format: Multiple-choice questions (MCQ) and Coding Questions",
+          "🌐 Platform: Coding Ninja",
+          "📜 Competition Rules:", 
+          "1️⃣ Open to all 3rd-year CSE students.",
+          "2️⃣ Individual participation only.",
+          "3️⃣ Choose your preferred programming language.",
+          "4️⃣ Time matters.",
+          "🚪Portal Remain Open for 3 Hours: You can attempt the test at any time during the 3-hour window. The coding questions await your solutions!"
+        ],
+        "regLink": "https://bit.ly/3FKTmbi",
+        "organizer": "Coding Ninja",
+        "eventPosted": "November 5, 2023",
+        "deadline": "November 8, 2023"
+        
       },
       {
         "id": 2,
-        "title": "Competition 2",
-        "img": "competition2.jpg",
-        "description": "Description for Competition 2"
+        "title": "Event 2",
+        "img": "https://i.ibb.co/FbDHnSG/Whats-App-Image-2023-10-15-at-19-12-30-8e6ae551.jpg",
+        "eventDescription": [
+          "🏏 Join the Coding World Cup 🧑‍💻",
+          "🚀 Coding Ninjas and Logitech bring you an exciting fusion of coding and cricket. Compete, climb the leaderboard, and win exclusive MX series products. 🎉",
+          "Event Timeline:",
+          "🏁 Begins: 5th October, 2023",
+          "🎉 Results: 24th November, 2023",
+          "🌟 How to Participate:",
+          "1️⃣ Daily dual challenge: Solve coding problems and answer cricket trivia questions tied to the ICC World Cup match.",
+          "2️⃣ Share on LinkedIn: Use hashtags #CodingWorldCup, #CodingNinjas, and #MXSeries. Win exciting daily prizes! 🎁",
+          "3️⃣ Climb the leaderboard: Get closer to becoming the CN Coding World Cup champion! 🏆🚀",
+          "Join the action today! 🌟"
+        ],
+        "regLink": "https://bit.ly/48SRKcG",
+        "organizer": "Coding Ninja",
+        "eventPosted": "November 5, 2023"
       },
       {
         "id": 3,
-        "title": "Competition 3",
-        "img": "competition3.jpg",
-        "description": "Description for Competition 3"
-      }
+        "title": "Arweave India Bootcamp",
+        "img": "https://i.ibb.co/JH6X7H6/Screenshot-2023-11-05-220243.png",
+        "eventDescription": [
+          "👏🏼Arweave India Bootcamp👏🏼",
+          "Learn to build your own dApps from scratch with Tom Wilson, (@rakis_me) one of the great minds in the Arweave ecosystem",
+          "Did we mention that is gonna be one of the most beneficial session if you’re competing for the Hacker House",
+          "📆 Date: Monday, 6th Nov",
+          "🕗 Time: 8 PM IST",
+          "———",
+          "🤔Why join?",
+          "Attending the bootcamp gives you an edge to qualify for the Arweave Hacker House",
+          "🏠What is Arweave Hacker House?",
+          "An all expense paid IRL building event in Bangalore from Dec 4-6th. There will be $10,000 in scholarships + additional bounties",
+          "🙋Who can participate?",
+          "Inviting not only devs but also all creators, designers to collaborate and build together in teams",
+          "———",
+          "Join the Arweave India Discord🤝 https://discord.gg/6s5YuqW6"
+        ],
+        "regLink": "https://arweavehub.com/#/events/bootcamp-session-3",
+        "organizer": "Arweave India",
+        "eventPosted": "October 30, 2023",
+        "deadline": "November 6, 2023"
+       }
     ],
-    "other": [
+    "notices": [
       {
         "id": 1,
-        "title": "Other 1",
-        "img": "other1.jpg",
-        "description": "Description for Other 1"
+        "title": "Calender 2023",
+        "img": "https://img.freepik.com/premium-vector/vector-illustration-calendar-icon_181203-11337.jpg",
+        "downloadable": "yes",
+        "fileUrl": "https://docs.google.com/document/d/1AQZaCBD_k_t6ucPbCnnCEcKV8S5Z1zXY/edit?usp=sharing&ouid=101414253553455825512&rtpof=true&sd=true",
+        "date": "August 8, 2023"
       },
       {
         "id": 2,
-        "title": "Other 2",
-        "img": "other2.jpg",
-        "description": "Description for Other 2"
+        "title": "Timetable BLOCK-3",
+        "img": "https://img.freepik.com/premium-vector/alarm-clock-icon-alarm-clock-that-sounds-loudly-morning-wake-up-from-bed_68708-698.jpg",
+        "downloadable": "yes",
+        "fileUrl": "https://drive.google.com/file/d/1bLSMYLq3pAe__A8AcEQAC-TH4vHJaLSY/view?usp=sharing",
+        "date": "November 1, 2023"
       },
       {
         "id": 3,
-        "title": "Other 3",
-        "img": "other3.jpg",
-        "description": "Description for Other 3"
+        "title": "Holidays Calender 2023",
+        "img": "https://img.freepik.com/premium-vector/vector-illustration-calendar-icon_181203-11337.jpg",
+        "downloadable": "yes",
+        "fileUrl": "https://drive.google.com/file/d/1RsIPkbKUjqdEume9fukF3mGKyze34inv/view?usp=sharing",
+        "date": "August 8, 2023"
+      },
+      {
+        "id": 4,
+        "title": "Winter Winning Camp Calender Batch 2025",
+        "img": "https://cdni.iconscout.com/illustration/premium/thumb/winter-camp-7368446-6007113.png",
+        "downloadable": "no",
+        "fileUrl": "https://drive.google.com/file/d/10T8nSneIv2ST0u0S2gcKLYq_zwt4vHq6/view?usp=sharing",
+        "date": "November 1, 2023"
       }
     ]
   }
