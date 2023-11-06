@@ -4,7 +4,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from "./Pages/Home";
-import EventListDetailPage from "./Pages/EventListDetailPage";
 import CompListPage from "./Pages/CompListPage";
 import CompDetailsPage from "./Pages/CompDetailsPage";
 import EventListPage from "./Pages/EventListPage";
@@ -18,10 +17,6 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <EventListPage />,
-  },
-  {
-    path: "/events/:id",
-    element: <EventListDetailPage />,
   },
   {
     path: "/competition",

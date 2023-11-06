@@ -7,7 +7,7 @@ export default function ListItem({ event }) {
   };
   return (
     // bg-slate-50 hover:bg-slate-100 rounded-md ring-1 ring-slate-200 shadow-sm
-    <article className="flex flex-col mb-4 p-6 max-w-md md:max-w-3xl">
+    <article className="flex flex-col mb-4 md:p-6 md:max-w-3xl">
       <img src={event.img} alt="" className="h-96 object-contain flex-none  " />
       <div className="min-w-0 relative flex-auto mt-4 md:mt-0">
         {event.eventPosted ? (
@@ -19,16 +19,17 @@ export default function ListItem({ event }) {
             By {event.organizer} on ________
           </div>
         )}
-        <h2 className="font-semibold text-slate-600  truncate text-3xl leading-10 cursor-pointer">
+        <h2 className="font-semibold text-slate-600   text-3xl leading-10 cursor-pointer">
           {event.title}
         </h2>
 
-        <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium whitespace-normal cursor-text">
+        <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium whitespace-normal cursor-text overflow-y-auto">
           <div className="flex-none w-full mt-2 font-normal">
             <dt className="sr-only">description</dt>
-            {event.eventDescription && event.eventDescription.map((line) => (
-              <dd className="text-slate-500">{line}</dd>
-            ))}
+            {event.eventDescription &&
+              event.eventDescription.map((line) => (
+                <dd className="text-slate-500">{line}</dd>
+              ))}
           </div>
         </dl>
         {/* <a href={event.regLink}> */}

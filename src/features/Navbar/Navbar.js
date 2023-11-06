@@ -1,8 +1,7 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 // const navigation = [
 //   { name: "Home", link: "/", current: true },
@@ -18,7 +17,7 @@ function classNames(...classes) {
 export default function Navbar({ children }) {
   const [activeNavItem, setActiveNavItem] = useState("Home");
   
-  const navigation = [
+  const navigation = useMemo(() => [
     { name: "Home", link: "/", current: activeNavItem === "Home" },
     {
       name: "Competitions",
@@ -27,7 +26,8 @@ export default function Navbar({ children }) {
     },
     { name: "Events", link: "/events", current: activeNavItem === "Events" },
     { name: "Notice", link: "/notices", current: activeNavItem === "Notice" },
-  ];
+  ], [activeNavItem]);
+
   
   useEffect(() => {
     const pathname = window.location.pathname;

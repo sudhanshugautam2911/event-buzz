@@ -37,7 +37,7 @@ const HomePage = () => {
         <div></div>
       </div> */}
       <div className="flex items-center justify-center text-gray-500 my-6">
-            Created By Love💝
+            Created With Love💝
       </div>
     </>
   );
